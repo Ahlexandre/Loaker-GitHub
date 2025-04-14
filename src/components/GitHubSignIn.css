@@ -1,0 +1,94 @@
+.github-signin-container {
+    width: 340px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .github-signin-container h1 {
+    font: 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    margin: 0 0 8px;
+  }
+  
+  .main-form-container {
+    margin: 16px 0 0;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #d8dee4;
+    border-radius: 6px;
+  }
+  
+  .github-form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .github-form label {
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 0 0 8px;
+    font-weight: 600;
+  }
+  
+  .password-label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgot-password {
+    font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #0969da;
+    text-decoration: none;
+  }
+  
+  .github-input {
+    width: 100%;
+    padding: 5px 12px;
+    margin: 4px 0 16px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  
+  .signin-button {
+    width: 100%;
+    background-color: #2da44e;
+    color: white;
+    border: none;
+    padding: 5px 16px;
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    border-radius: 6px;
+    margin: 16px 0 0;
+    cursor: pointer;
+  }
+  
+  .signin-button:hover {
+    background-color: #2c974b;
+  }
+  
+  .footer-links {
+    margin-top: 16px;
+    padding: 16px 0;
+    border-top: 1px solid #d8dee4;
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  
+  .footer-links a {
+    color: #0969da;
+    text-decoration: none;
+  }
+  
+  .legal-links {
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  
+  .legal-links a {
+    margin-right: 8px;
+    color: #57606a;
+  }
