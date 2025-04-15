@@ -1,5 +1,5 @@
 import React from "react";
-import "./GitHubSignIn.css";
+import "../styles/GitHubSignIn.css";
 
 const GitHubSignIn = () => {
   return (
