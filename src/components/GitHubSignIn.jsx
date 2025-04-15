@@ -1,12 +1,18 @@
 import React from "react";
-import "./GitHubSignIn.css"; // Nous créerons ce fichier ensuite
+import "./GitHubSignIn.css";
 
 const GitHubSignIn = () => {
   return (
-    <div className="github-signin-container">
-      <h1>Sign in to GitHub</h1>
+    <div className="github-auth-container">
+        <div className="head">
+          <div className="logo-container">
+            <a href = "https://github.com/"><img src="/images/icon.png" alt="GitHub Logo" className="github-logo" /></a>
+          </div>
+        </div>
+
+      <h1 className="auth-title">Sign in to GitHub</h1>
       
-      <div className="main-form-container">
+      <div className="form-container">
         <form className="github-form">
           <div className="form-group">
             <label htmlFor="username">Username or email address</label>
@@ -33,17 +39,21 @@ const GitHubSignIn = () => {
             Sign in
           </button>
         </form>
-        
-        <div className="footer-links">
-          <p>New to GitHub? <a href="#">Create an account</a></p>
-          <div className="legal-links">
-            <a href="#">Terms</a>
-            <a href="#">Privacy</a>
-            <a href="#">Docs</a>
-            <a href="#">Contact GitHub Support</a>
-            <a href="#">Manage cookies</a>
-            <a href="#">Do not share my personal information</a>
-          </div>
+      </div>
+
+      <div className="auth-options">
+        <button className="passkey-button">Sign in with a passkey</button>
+        <p className="create-account">New to GitHub? <a href="#">Create an account</a></p>
+      </div>
+
+      <div className="footer-links">
+        <div className="legal-links">
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Docs</a>
+          <a href="#">Contact GitHub Support</a>
+          <a href="#">Manage cookies</a>
+          <a href="#">Do not share my personal information</a>
         </div>
       </div>
     </div>

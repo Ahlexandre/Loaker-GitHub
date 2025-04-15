@@ -141,7 +141,7 @@ body {
   background: none;
   border: none;
   color: #2f81f7;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600; 
   cursor: pointer;
   padding: 0;
@@ -155,7 +155,7 @@ body {
 }
 
 .create-account {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .create-account a {

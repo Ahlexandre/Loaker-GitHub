@@ -1,5 +1,4 @@
 ---
-// Importez le composant React
 import GitHubSignIn from "../components/GitHubSignIn";
 ---
 
@@ -7,20 +6,9 @@ import GitHubSignIn from "../components/GitHubSignIn";
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Sign In</title>
-  <style>
-    body {
-      background-color: #f6f8fa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
-    }
-  </style>
+  <title>Sign in to GitHub</title>
 </head>
 <body>
-  <!-- Utilisez le composant React avec la directive client:load -->
   <GitHubSignIn client:load />
 </body>
 </html>
